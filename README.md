@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# Rickroll Generator
 
-You can use the [editor on GitHub](https://github.com/reuvendev/app/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+This is the [Rickroll Generator](https://rr.noordstar.me/), a website that allows people to creat new Rickroll links for people to fall for! The link includes a rich preview to deceive your victims even more!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[What is a rickroll?](https://en.wikipedia.org/wiki/Rickrolling)
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Setup
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+To set the program up, run
+```
+    pip install -r requirements.txt
+    python setup.py
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+To run the website, run
+```
+    python main.py 127.0.0.1 5000
+```
+where `127.0.0.1` and `5000` are the wished ip-address and port, respectively.
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/reuvendev/app/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+If you want to use your own domain name (and not ours), then change line 7 in the file `main.py` to your own domain name. **Make sure you do not add a / at the end of the domain.**
