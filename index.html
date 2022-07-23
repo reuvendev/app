@@ -80,7 +80,7 @@
 <div class="col-sm-9 col-xs-12 p-1 container" style="display:block;" id="sid4">
 <div class="card m-b-20 card-ortlax">
 <h5 class="card-title mb-3"> Views</h5>
-<small style="display: block; color: red;" class="card-title mb-3">UPDATING</small>
+<small style="display: block; color: green;" class="card-title mb-3">AVAILABLE</small>
 <form action="c2VuZC9mb2xsb3dlcnNfdGlrdG9V">
 <div class="input-group mb-3">
 <input id="viewlink" class="form-control text-center font-weight-bold rounded-0" name="link" placeholder="Video URL" aria-describedby="basic-addon1" required="">
@@ -94,7 +94,7 @@
 <div class="col-sm-9 col-xs-12 p-1 container" style="display:block;" id="sid7">
 <div class="card m-b-20 card-ortlax">
 <h5 class="card-title mb-3"> Shares</h5>
-<small style="display: block; color: red;" class="card-title mb-3">UPDATING</small>
+<small style="display: block; color: green;" class="card-title mb-3">AVAILABLE</small>
 <form action="c2VuZC9mb2xsb3dlcnNfdGlrdG9s">
 <div class="input-group mb-3">
 <input id="sharelink" class="form-control text-center font-weight-bold rounded-0" name="link" placeholder="Video URL" aria-describedby="basic-addon1" required="">
@@ -106,7 +106,19 @@
 <div id="c2VuZC9mb2xsb3dlcnNfdGlrdG9s"></div>
 </div></div>
 <div style="margin-top:10px;">
-  <p>Follow me on tiktok: <a href="https://www.tiktok.com/@reuvendev"> @reuvendev</a></p>
+
+<div class="col-sm-9 col-xs-12 p-1 container">
+  <div class="alert-box card m-b-20 card-ortlax">
+    <span class="badge">Announcement</span>
+      <div id="AnnouncementContent">
+          <p>Expect delay of receiving Hearts, Views and Shares due to server overload</p>
+      </div>
+  </div>  
+</div>
+<div style="margin-top:10px;"> 
+
+<p>Follow me on TikTok: <a href="https://www.tiktok.com/@reuvendev"> @reuvendev</a></p>
+
 <div style="margin-top:10px;"> 
 <div id="SC_TBlock_873921"></div> 
 
@@ -157,11 +169,11 @@ function startTimer(duration, display) {
         var shr = document.getElementById("shares");
         var f = document.getElementById("time");
 
-        //hrt.disabled = true
+        hrt.disabled = true
         //vws.disabled = true
         //shr.disabled = true
 
-        //document.getElementById("hearts").style.backgroundColor="grey";
+        document.getElementById("hearts").style.backgroundColor="grey";
         //document.getElementById("views").style.backgroundColor="grey";
         //document.getElementById("shares").style.backgroundColor="grey";
 
