@@ -79,7 +79,7 @@
 <div class="col-sm-9 col-xs-12 p-1 container" style="display:block;" id="sid4">
 <div class="card m-b-20 card-ortlax">
 <h5 class="card-title mb-3"> Views</h5>
-<small style="display: block; color: green;" class="card-title mb-3">AVAILABLE</small>
+<small style="display: block; color: red;" class="card-title mb-3">UPDATING</small>
 <form action="c2VuZC9mb2xsb3dlcnNfdGlrdG9V">
 <div class="input-group mb-3">
 <input id="viewlink" class="form-control text-center font-weight-bold rounded-0" name="link" placeholder="Video URL" aria-describedby="basic-addon1" required="">
@@ -172,11 +172,11 @@ function startTimer(duration, display) {
         var f = document.getElementById("time");
 
         hrt.disabled = true
-        //vws.disabled = true
+        vws.disabled = true
         shr.disabled = true
 
         document.getElementById("hearts").style.backgroundColor="grey";
-        //document.getElementById("views").style.backgroundColor="grey";
+        document.getElementById("views").style.backgroundColor="grey";
         document.getElementById("shares").style.backgroundColor="grey";
 
         document.getElementById("time").style.display="none";
